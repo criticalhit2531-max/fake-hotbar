@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "fakehotbar",
+  "version": "${version}",
+  "name": "Fake Hotbar",
+  "description": "Changes only the displayed order of hotbar item icons.",
+  "environment": "client",
+  "mixins": [
+    "fakehotbar.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
